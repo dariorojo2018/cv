@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CV</title>
+</head>
+<!-- como se puede ver este proyecto en html consta de 3 bloques principales.-->
+
+<body>
+    <div class="container">
+        <div class="contenedor-1">
+            <!--En este bloque llamado imagenes, podemos encontrar el nombre y la foto de perfil del cv-->
+            <div class="imagenes">
+                <img src="/imagenes/laptop-g06a57c43c_640.jpg" alt="">
+                <p class="nombre">Armando Gardner</p>
+            </div>
+            <hr>
+            <div class="programación">
+                <ul>
+                    <li>Programador : frontend Developer</li>
+                    <li>País : Estados Unidos</li>
+                    <li>Ciudad : Michigan</li>
+                    <li>Edad : 25</li>
+                </ul>
+            </div>
+            <hr>
+            <!--bloque en donde se desarrollo las habilidades de la persona que aparece en el cv-->
+            <div class="habilidades">
+                <p>Habilidades</p>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                    <li>git</li>
+                    <li>bootstrap 5</li>
+                </ul>
+
+            </div>
+            <hr>
+
+            <div class="idiomas">
+                <p>Idiomas</p>
+                <ul>
+                    <li>Ingles</li>
+                    <li>Español</li>
+                    <li>Italiano</li>
+                    <li>Japones</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="hobbies">
+                <p>hobbies</p>
+                <ul>
+                    <li>Jugar al ajedrez</li>
+                </ul>
+
+            </div>
+        </div>
+        <!--segundo contenedor donde vemos la experiencia laboal y el nivel educativo -->
+        <div class="contenedor-2">
+            <div class="seccion">
+                <section>
+                    <h2>Experiencia Laboral</h2>
+                    <article>
+                        <h3>Desarrollador front-end / Argentina programa 4.0</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati sit
+                            aperiam, atque nihil quaerat sed rerum reiciendis totam tempora quam, facilis eaque eligendi
+                            accusantium itaque sunt sapiente voluptates vitae magnam eos dolorum blanditiis
+                            voluptatibus. Rem adipisci dolor quis reprehenderit!</p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Desarrollador Web / algo.com</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora nesciunt accusamus
+                            illo quibusdam a aut, quasi tenetur rem quos sit magni, aperiam error. Recusandae, ducimus.
+                            Expedita ipsa cupiditate commodi, necessitatibus, aut perspiciatis eum facilis placeat ullam
+                            nesciunt consectetur quasi?</p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>programador Javascript / designsomething.com</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dolor incidunt recusandae,
+                            dicta quo molestias quae, rerum nam ratione, sequi quisquam. Aliquid fugiat quod facere,
+                            cumque inventore dicta illum, earum, blanditiis perferendis ut aliquam laborum accusamus. Ad
+                            asperiores qui molestiae.</p>
+                    </article>
+                </section>
+
+
+            </div>
+
+            <div class="seccion">
+                <section>
+                    <h2>Educación</h2>
+                    <article>
+                        <h3>Desarrollador web egresado de Argentina programa 4.0 2023</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio mollitia minima
+                            exercitationem quam. Similique unde voluptates numquam doloribus, debitis ipsum dolor illum!
+                            Consequuntur, nesciunt.</p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Escuela de idiomas de la ciudad de Buenos Aires</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod commodi error distinctio
+                            voluptate accusamus neque omnis, magni, iste libero eveniet veritatis. Quos recusandae
+                            numquam cumque.</p>
+                    </article>
+                    <hr>
+                    <article>
+                        <h3>Escuela de Emprendedores digitales 2023</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur aliquid at
+                            consequatur laudantium, similique placeat cumque, aut ea quibusdam itaque, porro id
+                            excepturi odio.</p>
+                    </article>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+    <!--display con donde se puede ver varios proyectos freelance-->
+    <div id="ver-ocultar" class="ver-ocultar">
+        <p> Proyectos freelance</p>
+        <p id="ver-display" onclick="ver();">Click aquí</p>
+        <p id="ocultar-display" onclick="ocultar();">Click aquí para ocultar</p>
+    </div>
+
+    <div class="sitios" id="display-ver-ocultar">
+
+        <div>
+            <p>Plantilla de cartera oscura</p>
+            <a
+                href="https://www-w3schools-com.translate.goog/w3css/tryw3css_templates_dark_portfolio.htm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc"><img
+                    class="img-sitio-web" src="imagenes/img_temp_dark_icon.jpg" alt=""></a>
+        </div>
+        <div>
+            <p>Plantilla de foto en blanco y negro</p>
+            <a
+                href="https://www-w3schools-com.translate.goog/w3css/tryw3css_templates_photo2.htm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc"><img
+                    class="img-sitio-web" src="imagenes/img_temp_photo2.jpg" alt=""></a>
+        </div>
+        <div>
+            <p>Plantilla de blog</p>
+            <a
+                href="https://www-w3schools-com.translate.goog/w3css/tryw3css_templates_portfolio.htm?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es-419&_x_tr_pto=sc"><img
+                    class="img-sitio-web" src="imagenes/img_temp_portfolio.jpg" alt=""></a>
+        </div>
+    </div>
+    <!--div del footer donde podemos ver las redes sociales y el contacto -->
+
+    <div class="footer">
+
+        <div class="redes-sociales">
+            <p>Redes sociales : </p>
+            <ul>
+                <li><a href="https://ar.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.google.com/intl/es/gmail/about/"><i class="fa-regular fa-envelope"></a></i>
+                </li>
+                <li><a href="https://git-scm.com/"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <p>Telefono : #000-9999-0000</p>
+            <p>mail : usuarioPorgramador###@mail.com</p>
+        </div>
+        <div class="creador-pagina">
+            <p>Está página fue creada por Darío Rojo, estudiante de Codo a Codo 4.0 2023</p>
+        </div>
+
+
+    </div>
+
+
+<!--conecto de javascript -->
+
+    <script src="javascript.js"></script>
+
+
+</body>
+
+</html>
